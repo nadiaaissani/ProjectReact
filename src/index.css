@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 760px;
+  margin: 10px auto;
+  padding: 1rem 0;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #028bfc;
+}
+
+.liens {
+  display: flex;
+  list-style: none;
+}
+
+.liens li {
+  margin-left: 2rem;
+}
+
+.liens li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #4b4a4a;
+}
+
+.liens li a:hover {
+  color: #028bfc;
+  color: #128acf;
+}
+
+.home h2 {
+  text-align: center;
+}
+
+.contenu {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.bloglist {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 100%;
+
+}
+
+.blog {
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.blog:hover {
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(119, 119, 119, 0.7);
+  -moz-box-shadow: 1px 2px 4px 1px rgba(119, 119, 119, 0.7);
+  box-shadow: 1px 2px 4px 1px rgba(119, 119, 119, 0.7);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.blog-publication-date {
+  font-style: italic;
+  color: #5c5b5b;
+}
+
+.blog-titre {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #028bfc;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+
+.blog-body {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #333;
+}
+
+.blog-author {
+  font-style: italic;
+  color: #5c5b5b;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* form style */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 15px;
+}
+
+label {
+  font-size: 1rem;
+  color: #646464;
+}
+
+.form-control {
+  height: 2rem;
+  font-size: large;
+  border-radius: 0.2rem;
+  border: solid 1px #bbb;
+  font-size: 1rem;
+  color: #646464;
+}
+
+.textarea {
+  height: 5rem;
+  font-size: 1.2rem;
+}
+
+.btn-create {
+  background: #028bfc;
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  border: none;
+  width: 150px;
+  font-size: 1.2rem;
+}
+
+.btn-danger {
+  background: #fc1f02;
+  color: #fff;
+}
+
+.not-found {
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.not-found a {
+  text-decoration: none;
+  color: #028bfc;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
