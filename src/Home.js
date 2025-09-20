@@ -26,7 +26,7 @@ const Home = () => {
     const { data: blogs, isLoading, error } = UseRecupération('http://localhost:8000/blogs');
     return (
         <div className="contenu">
-            {error && <div> une erreur c'est produit</div>}
+            {error && <div> une erreur c'est produit  veuillez patientez</div>}
             {isLoading && <div>  En cours de traitement</div>}
             {blogs && <Bloglist blogs={blogs} title={'liste des blogs'} ></Bloglist>}
             {/* <Bloglist blogs={blogs.filter((blog) => blog.author == 'nadia1')} title={'liste des blogs écrit par nadia1'}></Bloglist> */}
